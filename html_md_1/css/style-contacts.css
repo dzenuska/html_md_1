@@ -1,0 +1,37 @@
+#rigacoding { 
+    width: 6cm;
+    margin:auto;
+    border: 2px solid gray;
+    background-color: black;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-bottom: 1cm;
+    padding-top: 1cm;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    @font-face {
+        font-family: 'open_sanslight';
+        src: url('../assets/OpenSans-Light.ttf') format('truetype');     
+    }
+}
+#homebutton {
+    position:relative;
+    margin: 0;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    text-align: center;
+    color: black;
+    margin-top: 5mm;
+}
+
+#hometext {
+    padding-top:0mm;
+    padding-right: 4mm;
+    padding-left: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight:bold;
+}
